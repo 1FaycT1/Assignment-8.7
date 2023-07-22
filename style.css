@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-card {
+    width: 90%;
+    max-width: 600px;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-header {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 8px 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.card-body {
+    padding: 0 10px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-info {
+    background-color: #4d4d4d;
+}
+
+.btn-info:hover {
+    background-color: #6c6c6c;
+}
+
+.btn-success {
+    background-color: #218838;
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+}
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+#orderNumberField {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#answerField {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ccc;
+}
