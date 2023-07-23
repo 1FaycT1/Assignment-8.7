@@ -161,7 +161,7 @@ answerField.innerText = questionPhrase;
 document.getElementById('btnLess').addEventListener('click', function () {
   if (gameRun){
     if (minValue < maxValue){
-      maxValue = answerNumber - 1;
+      maxValue = answerNumber;
       answerNumber = Math.floor((minValue + maxValue) / 2);
       orderNumber++;
       orderNumberField.innerText = orderNumber;
